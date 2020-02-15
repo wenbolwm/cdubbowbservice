@@ -1,0 +1,42 @@
+include 'BaijiCommonTypes.bjsc'  
+namespace java 'com.ctrip.basebiz.cdubbowbservice.service'
+
+/**
+* OperState:
+* I login 登录
+* O logout 登出
+* W work 工作
+* D deal 后处理
+* P pause 暂停
+*/
+enum OperState{
+    I;
+    O;
+    W;
+    D;
+    P;
+}
+
+class OperatornoInfo{
+    string operatorNo;
+    string loginKey;
+    string employeeID;
+    string deviceID;
+    OperState operState;
+}
+
+class OperatornoInfoRequestType{
+    string ani;
+}
+
+class OperatornoInfoResponseType{
+    BaijiCommonTypes.ResponseStatusType responseStatus;
+    OperatornoInfo operatornoInfo;
+}
+
+@serviceName='cdubbowb'
+@serviceNamespace='http://soa.ctrip.com/platform/soa/cdubbowbservice/v1'
+service cdubbowb {
+    OperatornoInfoResponseType operatornoInfo(OperatornoInfoRequestType request);
+    BaijiCommonTypes.CheckHealthResponseType checkHealth(BaijiCommonTypes.CheckHealthRequestType request);
+}

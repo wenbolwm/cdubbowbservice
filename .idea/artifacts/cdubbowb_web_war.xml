@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="cdubbowb-web:war">
+    <output-path>$PROJECT_DIR$/cdubbowb-web/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>cdubbowb-web</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="cdubbowb-web-1.0.0.war">
+      <element id="artifact" artifact-name="cdubbowb-web:war exploded" />
+    </root>
+  </artifact>
+</component>

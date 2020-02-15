@@ -1,0 +1,633 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="cdubbowb-service:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="0cad8f00-5cc2-477d-a665-d869b3ad8a80" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/cdubbowb-client/src/main/java/com/ctrip/bbz/cdubbowbservice/api/CdubbowbClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cdubbowb-client/src/main/java/com/ctrip/bbz/cdubbowbservice/api/CdubbowbClientInterface.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cdubbowb-common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cdubbowb-client/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cdubbowb-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cdubbowb-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cdubbowb-service/src/main/java/com/ctrip/bbz/cdubbowbservice/CdubbowbserviceApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cdubbowb-service/src/main/java/com/ctrip/bbz/cdubbowbservice/service/Cdubbowb.java" beforeDir="false" afterPath="$PROJECT_DIR$/cdubbowb-client/src/main/java/com/ctrip/bbz/cdubbowbservice/api/Cdubbowb.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cdubbowb-service/src/main/java/com/ctrip/bbz/cdubbowbservice/service/OperState.java" beforeDir="false" afterPath="$PROJECT_DIR$/cdubbowb-client/src/main/java/com/ctrip/bbz/cdubbowbservice/api/OperState.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cdubbowb-service/src/main/java/com/ctrip/bbz/cdubbowbservice/service/OperatornoInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/cdubbowb-client/src/main/java/com/ctrip/bbz/cdubbowbservice/api/OperatornoInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cdubbowb-service/src/main/java/com/ctrip/bbz/cdubbowbservice/service/OperatornoInfoRequestType.java" beforeDir="false" afterPath="$PROJECT_DIR$/cdubbowb-client/src/main/java/com/ctrip/bbz/cdubbowbservice/api/OperatornoInfoRequestType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cdubbowb-service/src/main/java/com/ctrip/bbz/cdubbowbservice/service/OperatornoInfoResponseType.java" beforeDir="false" afterPath="$PROJECT_DIR$/cdubbowb-client/src/main/java/com/ctrip/bbz/cdubbowbservice/api/OperatornoInfoResponseType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cdubbowb-service/src/main/java/com/ctrip/bbz/cdubbowbservice/service/impl/CdubbowbImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/cdubbowb-service/src/main/java/com/ctrip/bbz/cdubbowbservice/service/impl/CdubbowbImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cdubbowb-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/cdubbowb-service/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cdubbowb-service/src/test/java/com/ctrip/bbz/cdubbowbservice/CdubbowbserviceApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cdubbowb-web/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cdubbowb-web/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cdubbowb-web/src/main/java/com/ctrip/basebiz/cdubbowbservice/cdubbowbweb/CdubbowbWebApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/cdubbowb-web/src/main/java/com/ctrip/basebiz/cdubbowbservice/cdubbowbweb/CdubbowbWebApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cdubbowb-web/src/main/java/com/ctrip/basebiz/cdubbowbservice/cdubbowbweb/controller/IndexController.java" beforeDir="false" afterPath="$PROJECT_DIR$/cdubbowb-web/src/main/java/com/ctrip/basebiz/cdubbowbservice/cdubbowbweb/controller/IndexController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cdubbowb-web/src/main/java/com/ctrip/basebiz/cdubbowbservice/cdubbowbweb/controller/IndexRestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/cdubbowb-web/src/main/java/com/ctrip/basebiz/cdubbowbservice/cdubbowbweb/controller/IndexRestController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cdubbowb-web/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/cdubbowb-web/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cdubbowb-web/src/test/java/com/ctrip/basebiz/cdubbowbservice/cdubbowbweb/CdubbowbWebApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileColors">
+    <fileColor scope="Non-Project Files (Material Default)" color="2E3C43" />
+    <fileColor scope="Non-Project Files (Material Darker)" color="323232" />
+    <fileColor scope="Non-Project Files (Material Lighter)" color="eae8e8" />
+    <fileColor scope="Non-Project Files (Material Palenight)" color="2f2e43" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>bannerMode</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="D:/javadev/apache-maven-3.6.3" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="vmOptions" value="-Dfile.encoding=GB2312" />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
+  </component>
+  <component name="ProjectId" id="1Xo1pCieSORm11NNh0k1eearbtt" />
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>Android &gt; Lint &gt; Correctness</id>
+          </State>
+          <State>
+            <id>Gradle</id>
+          </State>
+          <State>
+            <id>Kotlin</id>
+          </State>
+          <State>
+            <id>Maven</id>
+          </State>
+          <State>
+            <id>OSGi</id>
+          </State>
+          <State>
+            <id>Probable bugsGradle</id>
+          </State>
+        </expanded-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+    <option name="showVisibilityIcons" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ExpandSpringBootJavaOptionsPanel" value="true" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelOrder2" value="2" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RequestMappingsPanelWidth2" value="75" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1534945671853" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.ctrip.basebiz.cdubbowbservice.cdubbowbweb.controller" />
+      <recent name="com.ctrip.bbz.cdubbowbservice" />
+      <recent name="com.ctrip.basebiz.cdubbowbservice.cdubbowbweb" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\TFS\cdubbowbservice\cdubbowb-web\src\main\java\com\ctrip\basebiz\cdubbowbservice\cdubbowbweb" />
+      <recent name="E:\TFS\cdubbowbservice\springbootadmin\src\main\resources" />
+      <recent name="E:\TFS\cdubbowbservice\cdubbowb-service\src\main\java\com\ctrip\bbz\cdubbowbservice" />
+      <recent name="E:\TFS\cdubbowbservice\cdubbowb-client\src\main\java\com\ctrip\bbz\cdubbowbservice\api" />
+      <recent name="E:\TFS\cdubbowbservice\cdubbowb-common\src\main\java\com\ctrip\bbz\cdubbowbservice\api" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.CdubbowbWebApplication">
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CdubbowbserviceApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ctrip.bbz.cdubbowbservice.CdubbowbserviceApplication" />
+      <module name="cdubbowb-service" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ctrip.bbz.cdubbowbservice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CdubbowbWebApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="cdubbowb-web" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ctrip.basebiz.cdubbowbservice.cdubbowbweb.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ctrip.basebiz.cdubbowbservice.cdubbowbweb.CdubbowbWebApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringbootadminApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springbootadmin" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ctrip.basebiz.cdubbowbservice.springbootadmin.SpringbootadminApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG">
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" ALTERNATIVE_JRE_ENABLED="false">
+      <deployment />
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="_cdubbowbservice" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="61063" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="clienttomcat" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.10" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="cdubbowb-web:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_cdubbowbservice_2" />
+        <option name="HTTP_PORT" value="8090" />
+        <option name="JNDI_PORT" value="1098" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="61063" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="cdubbowb-web:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <configuration name="servertomcat" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.10" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="cdubbowb-service:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_cdubbowbservice_3" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="61063" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="cdubbowb-service:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.CdubbowbserviceApplication" />
+      <item itemvalue="Spring Boot.SpringbootadminApplication" />
+      <item itemvalue="Spring Boot.CdubbowbWebApplication" />
+      <item itemvalue="Tomcat Server.servertomcat" />
+      <item itemvalue="Tomcat Server.clienttomcat" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.CdubbowbWebApplication" />
+        <item itemvalue="Application.CdubbowbserviceApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0cad8f00-5cc2-477d-a665-d869b3ad8a80" name="Default" comment="" />
+      <created>1531815973859</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1531815973859</updated>
+      <workItem from="1531815977192" duration="7120000" />
+      <workItem from="1533091512959" duration="1680000" />
+      <workItem from="1533093340468" duration="18952000" />
+      <workItem from="1533177753155" duration="21524000" />
+      <workItem from="1533303872219" duration="7586000" />
+      <workItem from="1533566354776" duration="2013000" />
+      <workItem from="1534163058999" duration="6978000" />
+      <workItem from="1534214780965" duration="10760000" />
+      <workItem from="1534250488576" duration="2599000" />
+      <workItem from="1534255150673" duration="2161000" />
+      <workItem from="1534915673624" duration="20683000" />
+      <workItem from="1535012786563" duration="3028000" />
+      <workItem from="1535092161864" duration="1051000" />
+      <workItem from="1581697821024" duration="445000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="CdubbowbserviceApplicationTests - 2018.07.17 at 16h 49m 52s.xml">
+      <configuration name="CdubbowbserviceApplicationTests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CdubbowbserviceApplicationTests - 2018.07.17 at 19h 29m 39s.xml">
+      <configuration name="CdubbowbserviceApplicationTests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CdubbowbserviceApplicationTests - 2018.07.17 at 19h 29m 59s.xml">
+      <configuration name="CdubbowbserviceApplicationTests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CdubbowbserviceApplicationTests - 2018.07.17 at 19h 30m 48s.xml">
+      <configuration name="CdubbowbserviceApplicationTests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CdubbowbserviceApplicationTests - 2018.07.17 at 19h 31m 00s.xml">
+      <configuration name="CdubbowbserviceApplicationTests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CdubbowbserviceApplicationTests - 2018.07.17 at 19h 31m 10s.xml">
+      <configuration name="CdubbowbserviceApplicationTests" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1323" height="187" key="GridCell.Tab.0.bottom" timestamp="1581698293196">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="187" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1581698293196" />
+    <state width="1323" height="187" key="GridCell.Tab.0.center" timestamp="1581698293196">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="187" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1581698293196" />
+    <state width="1323" height="187" key="GridCell.Tab.0.left" timestamp="1581698293196">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="187" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1581698293196" />
+    <state width="1323" height="187" key="GridCell.Tab.0.right" timestamp="1581698293196">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="187" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1581698293196" />
+    <state x="186" y="9" key="SettingsEditor" timestamp="1581697933456">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="186" y="9" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1581697933456" />
+    <state x="375" y="191" key="com.intellij.ide.util.TipDialog" timestamp="1581697823853">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="375" y="191" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1581697823853" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/cdubbowb-web/src/main/java/com/ctrip/basebiz/cdubbowbservice/cdubbowbweb/controller/IndexRestController.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/cdubbowb-web/src/main/java/com/ctrip/basebiz/cdubbowbservice/cdubbowbweb/controller/SoaRestController.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/cdubbowb-web/src/main/java/com/ctrip/basebiz/cdubbowbservice/cdubbowbweb/controller/IndexController.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>cdubbowb-service:war</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>cdubbowbservice</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: com.alibaba:dubbo:2.5.10-ctrip.2</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

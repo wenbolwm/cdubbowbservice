@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/cdubbowb-client/cdubbowb-client.iml" filepath="$PROJECT_DIR$/cdubbowb-client/cdubbowb-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cdubbowb-service/cdubbowb-service.iml" filepath="$PROJECT_DIR$/cdubbowb-service/cdubbowb-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cdubbowb-web/cdubbowb-web.iml" filepath="$PROJECT_DIR$/cdubbowb-web/cdubbowb-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cdubbowbservice.iml" filepath="$PROJECT_DIR$/cdubbowbservice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springbootadmin/springbootadmin.iml" filepath="$PROJECT_DIR$/springbootadmin/springbootadmin.iml" />
+    </modules>
+  </component>
+</project>
